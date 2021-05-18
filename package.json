@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --color",
     "test-wdio": "npx wdio run ./wdio.conf.js",
+    "test-login": "npx wdio run ./wdio.conf.js --spec login.e2e.js",
     "test-coverage": "jest --coverage --color"
   },
   "jest": {
