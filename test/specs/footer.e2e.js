@@ -24,6 +24,9 @@ describe('Footer application', () => {
 
     it('should open LinkedIn', async () => {
         await FooterPage.goLinkedIn();
+       
+        // LinkedIn is slow when loading in the browser. Is it a conection issue?
+        await browser.pause(500);
 
         await browser.switchWindow('https://www.linkedin.com/company/sauce-labs/');
         await expect(browser).toHaveUrl('https://www.linkedin.com/company/sauce-labs/');

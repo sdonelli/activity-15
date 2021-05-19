@@ -18,10 +18,6 @@ class FooterPage extends Page {
         await (await this.linkedInIcon).click();
     }
 
-    open() {
-        return super.open("inventory.html");
-    }
-
 }
 
 module.exports = new FooterPage();
