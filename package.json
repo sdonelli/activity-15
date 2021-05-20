@@ -10,6 +10,7 @@
     "test-footer": "npx wdio run ./wdio.conf.js --spec footer.e2e.js",
     "test-menu": "npx wdio run ./wdio.conf.js --spec menu.e2e.js",
     "test-header": "npx wdio run ./wdio.conf.js --spec header.e2e.js",
+    "test-cart": "npx wdio run ./wdio.conf.js --spec cart.e2e.js",
     "test-coverage": "jest --coverage --color"
   },
   "jest": {

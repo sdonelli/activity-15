@@ -1,6 +1,6 @@
 # activity-15
 
-Writting test for https://www.saucedemo.com/ using WebDriverIO.
+Writing test for https://www.saucedemo.com/ using WebDriverIO.
 
 # How to execute the test?
 
