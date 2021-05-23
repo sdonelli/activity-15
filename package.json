@@ -13,6 +13,7 @@
     "test-cart": "npx wdio run ./wdio.conf.js --spec cart.e2e.js",
     "test-checkout-info": "npx wdio run ./wdio.conf.js --spec checkout-information.e2e.js",
     "test-checkout-view": "npx wdio run ./wdio.conf.js --spec checkout-overview.e2e.js",
+    "test-inventory-item": "npx wdio run ./wdio.conf.js --spec inventory-item.e2e.js",
     "test-coverage": "jest --coverage --color"
   },
   "jest": {
